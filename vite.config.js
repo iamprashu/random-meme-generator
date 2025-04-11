@@ -6,7 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(),tailwindcss()],server: {
     host: true
-  }
-
-
+  },
+  base:"/random-meme-generator",
 })
