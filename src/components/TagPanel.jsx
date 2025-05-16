@@ -20,7 +20,7 @@ export default function TagPanel(props){
             <h1 className="text-white text-xl font-bold">Enter topic here to get meme:</h1>
             <form className="flex flex-col justify-evenly h-[200px]" onSubmit={submitData}>
                 <input type="text" placeholder="Enter Topic..." className="h-15 w-100 border-2 rounded-4xl p-2 focus:outline-0 text-white text-xl" value={searchData}
-                       onChange={(event)=>setSearchData(event.target.value)}/>;
+                       onChange={(event)=>setSearchData(event.target.value)}/>
                 <button className="bg-fuchsia-950 hover:bg-fuchsia-900 px-5 py-3 rounded-2xl text-white">Get Meme.</button>
             </form>
         </div>
